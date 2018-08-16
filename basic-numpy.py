@@ -11,4 +11,9 @@ numbers2 = map(lambda x: x*2, numbers)  # lambda = anonymous function
 numbers3 = map(lambda x: x**2, numbers)
 print "The numbers times 2 is ",numbers2
 print "The numbers to the power of 2 is ",numbers3
-print "The 2D array of all these is:\n",np.array([numbers, numbers2, numbers3], float)
+matrix = np.array([numbers, numbers2, numbers3],float)
+print "The 2D array of all these is:\n",matrix
+
+matrix2 = np.transpose(matrix)
+print "The transpose of this 2D array is:\n",matrix2
+print "Multiplication of the two matrices is:\n",np.dot(matrix, matrix2)
