@@ -1,2 +1,2 @@
 # Data-Science-Practice
-A repository containing files related to my learning of Data Science on Udacity and Genomic Data Science on Coursera offered by Johns Hopkins University
+A repository containing files related to my learning of [Data Science](https://www.udacity.com/course/intro-to-data-science--ud359) on Udacity
